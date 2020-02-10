@@ -1,0 +1,15 @@
+@import "../theme.scss";
+
+.Box-container {
+  box-shadow: inset 0px 0px 0px 1px darken($bgColor, 30%);
+  opacity: 1;
+  font-size: 10px;
+  color: darken($bgColor, 30%);
+  text-align: center;
+  font-weight: 700;
+
+  &.snake {
+    background: $bodyColor;
+    opacity: 1;
+  }
+}

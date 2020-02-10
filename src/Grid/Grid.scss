@@ -1,0 +1,9 @@
+@import "../theme.scss";
+
+.Grid-container {
+  width: 800px;
+  height: 800px;
+  border: dashed 2px darken($bgColor, 20%);
+  display: flex;
+  flex-wrap: wrap;
+}
